@@ -1,0 +1,10 @@
+[run]
+source		= ctags
+omit		= ctags/tests/*
+              ctags/migrations/*
+
+[report]
+sort            = Miss
+show_missing    = True
+exclude_lines	=
+    pragma: no cover
